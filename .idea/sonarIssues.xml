@@ -1,0 +1,1549 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="issues">
+    <option name="index">
+      <map>
+        <entry key="/Dummy.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/.gradle/caches/transforms-3/6e90c77c1397a763ab16a848ea902c19/transformed/jetified-play-services-base-17.5.0/jars/classes.jar!/com/google/android/gms/auth/api/signin/GoogleSignInAccount.class">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/c53ee26cbd8814282746b9d8c2090a86/jetified-bees-datasource-1.14.2/jars/classes.jar!/com/abinbev/android/beesdatasource/datasource/customersupport/models/firebaseremoteconfig/MyAccountConfigs.class">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/f188d4ea169f5e715aff1e3643d8807d/jetified-sdk-feature-flag-3.8.0/jars/classes.jar!/com/abinbev/android/sdk/featureflag/provider/enums/CustomerSupportFeatureFlag.class">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ChatBot/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ChatBot/app/src/main/AndroidManifest.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ChatBot/app/src/main/java/com/gstv/chatbot/BreedsDataSource.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ChatBot/app/src/main/java/com/gstv/chatbot/BreedsRepository.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ChatBot/app/src/main/java/com/gstv/chatbot/BreedsRespository.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ChatBot/app/src/main/java/com/gstv/chatbot/MainActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ChatBot/app/src/main/java/com/gstv/chatbot/NetworkUltils.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ChatBot/app/src/main/java/com/gstv/chatbot/api/BreedsApi.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ChatBot/app/src/main/java/com/gstv/chatbot/api/BreedsHelper.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ChatBot/app/src/main/java/com/gstv/chatbot/api/BreedsRepository.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ChatBot/app/src/main/java/com/gstv/chatbot/api/BreedsService.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ChatBot/app/src/main/java/com/gstv/chatbot/api/NetworkUltils.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ChatBot/app/src/main/java/com/gstv/chatbot/api/Resource.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ChatBot/app/src/main/java/com/gstv/chatbot/composes/AppBar.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ChatBot/app/src/main/java/com/gstv/chatbot/composes/LayoutsChat.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ChatBot/app/src/main/java/com/gstv/chatbot/data/BreedsHelper.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ChatBot/app/src/main/java/com/gstv/chatbot/data/BreedsListModel.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ChatBot/app/src/main/java/com/gstv/chatbot/data/BreedsRepository.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ChatBot/app/src/main/java/com/gstv/chatbot/data/BreedsService.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ChatBot/app/src/main/java/com/gstv/chatbot/data/NetworkUltils.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ChatBot/app/src/main/java/com/gstv/chatbot/data/Resource.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ChatBot/app/src/main/java/com/gstv/chatbot/data/api/BreedsHelper.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ChatBot/app/src/main/java/com/gstv/chatbot/data/api/BreedsRepository.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ChatBot/app/src/main/java/com/gstv/chatbot/data/api/BreedsService.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ChatBot/app/src/main/java/com/gstv/chatbot/data/api/NetworkUltils.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ChatBot/app/src/main/java/com/gstv/chatbot/data/model/BreedsListModel.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ChatBot/app/src/main/java/com/gstv/chatbot/data/model/Message.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ChatBot/app/src/main/java/com/gstv/chatbot/data/model/api/BreedsHelper.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ChatBot/app/src/main/java/com/gstv/chatbot/data/model/api/BreedsRepository.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ChatBot/app/src/main/java/com/gstv/chatbot/data/model/api/BreedsService.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ChatBot/app/src/main/java/com/gstv/chatbot/data/model/api/NetworkUltils.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ChatBot/app/src/main/java/com/gstv/chatbot/data/repository/BreedsRepository.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ChatBot/app/src/main/java/com/gstv/chatbot/date/BreedsHelper.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ChatBot/app/src/main/java/com/gstv/chatbot/date/BreedsRepository.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ChatBot/app/src/main/java/com/gstv/chatbot/date/BreedsService.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ChatBot/app/src/main/java/com/gstv/chatbot/date/NetworkUltils.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ChatBot/app/src/main/java/com/gstv/chatbot/model/BreedsListModel.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ChatBot/app/src/main/java/com/gstv/chatbot/ui/MainActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ChatBot/app/src/main/java/com/gstv/chatbot/ui/base/ViewModelFactory.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ChatBot/app/src/main/java/com/gstv/chatbot/ui/main/MainActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ChatBot/app/src/main/java/com/gstv/chatbot/ui/main/viewmodel/MainActvityViewModel.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ChatBot/app/src/main/java/com/gstv/chatbot/utils/Resource.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ChatBot/app/src/main/java/com/gstv/chatbot/utils/Status.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ChatBot/app/src/main/java/com/gstv/chatbot/view/MainActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ChatBot/app/src/main/java/com/gstv/chatbot/view/base/ViewModelFactory.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ChatBot/app/src/main/java/com/gstv/chatbot/view/composes/MainActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ChatBot/app/src/main/java/com/gstv/chatbot/viewmodel/MainActvityViewModel.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/gstv/primeirocompose/AddUserState.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/gstv/primeirocompose/CardTest.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/gstv/primeirocompose/ClickButton.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/gstv/primeirocompose/FormActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/gstv/primeirocompose/HomeActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/gstv/primeirocompose/LoginActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/gstv/primeirocompose/MainActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/gstv/primeirocompose/composables/CustomDivider.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/gstv/primeirocompose/composables/FacebookButton.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/gstv/primeirocompose/composables/GoogleButton.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/gstv/primeirocompose/composables/Login.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/gstv/primeirocompose/composables/TopBar.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/gstv/primeirocompose/model/AddUserState.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/gstv/primeirocompose/model/UserModel.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/gstv/primeirocompose/ui/theme/Color.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/gstv/primeirocompose/ui/theme/Theme.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/gstv/primeirocompose/view/HomeActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/gstv/primeirocompose/view/LoginActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/gstv/primeirocompose/view/composables/CustomDivider.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/gstv/primeirocompose/view/composables/FacebookButton.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/gstv/primeirocompose/view/composables/Login.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/gstv/primeirocompose/viewModel/LoginActivityViewModel.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/gstv/primeirocompose/viewModel/LoginActvityViewModel.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/drawable/facebook.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/drawable/ic_goggle.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/values-night/themes.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/values/arrays.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/values/colors.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/values/themes.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/gradle.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/account-android/.gitmodules">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/account-android/features/account-info/src/main/res/layout/account_info_module_footer.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/account-android/features/account-info/src/main/res/values/strings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/account-android/features/account-selection/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/account-android/features/orchestrator/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/b2b-mobile-android-tickets/.gitmodules">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/b2b-mobile-android-tickets/Makefile">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/b2b-mobile-android-tickets/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/b2b-mobile-android-tickets/app/src/androidTest/java/com/abinbev/android/feature/MainRobot.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/b2b-mobile-android-tickets/app/src/androidTest/java/com/abinbev/android/feature/NewTicketRobot.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/b2b-mobile-android-tickets/app/src/main/java/com/abinbev/android/ApplicationCRS.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/b2b-mobile-android-tickets/app/src/main/java/com/abinbev/android/ApplicationDI.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/b2b-mobile-android-tickets/app/src/main/java/com/abinbev/android/MainActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/b2b-mobile-android-tickets/app/src/main/java/com/abinbev/android/section/SectionFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/b2b-mobile-android-tickets/app/src/main/res/layout/main_activity.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/b2b-mobile-android-tickets/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/b2b-mobile-android-tickets/crs/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/b2b-mobile-android-tickets/crs/changelog">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/b2b-mobile-android-tickets/crs/src/main/AndroidManifest.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/b2b-mobile-android-tickets/crs/src/main/assets/remote_configs_flags_firebase.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/b2b-mobile-android-tickets/crs/src/main/java/com/abinbev/android/crs/Configuration.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/b2b-mobile-android-tickets/crs/src/main/java/com/abinbev/android/crs/CustomerSupportActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/b2b-mobile-android-tickets/crs/src/main/java/com/abinbev/android/crs/constants/CustomerSupportConstants.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/b2b-mobile-android-tickets/crs/src/main/java/com/abinbev/android/crs/data/cache/CacheManager.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/b2b-mobile-android-tickets/crs/src/main/java/com/abinbev/android/crs/data/cache/RemoteConfigManager.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/b2b-mobile-android-tickets/crs/src/main/java/com/abinbev/android/crs/data/mapper/bees/CustomerSupportConfigsFlagMapper.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/b2b-mobile-android-tickets/crs/src/main/java/com/abinbev/android/crs/data/mapper/bees/MyAccountConfigsFlagMapper.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/b2b-mobile-android-tickets/crs/src/main/java/com/abinbev/android/crs/data/mapper/bees/RemoteConfigsFlagMapper.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/b2b-mobile-android-tickets/crs/src/main/java/com/abinbev/android/crs/data/model/MyAccountConfigsFlags.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/b2b-mobile-android-tickets/crs/src/main/java/com/abinbev/android/crs/data/model/RemoteConfigsFlags.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/b2b-mobile-android-tickets/crs/src/main/java/com/abinbev/android/crs/dynamic_forms/datasources/DynamicFormsTicketSubmissionNetworkDataSource.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/b2b-mobile-android-tickets/crs/src/main/java/com/abinbev/android/crs/dynamic_forms/extensions/ViewExtensions.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/b2b-mobile-android-tickets/crs/src/main/java/com/abinbev/android/crs/dynamic_forms/repository/DynamicFormsTicketSubmissionRepository.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/b2b-mobile-android-tickets/crs/src/main/java/com/abinbev/android/crs/dynamic_forms/ui/fragments/DynamicFormsNewTicketFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/b2b-mobile-android-tickets/crs/src/main/java/com/abinbev/android/crs/dynamic_forms/ui/fragments/DynamicReviewScreenFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/b2b-mobile-android-tickets/crs/src/main/java/com/abinbev/android/crs/dynamic_forms/ui/views/components/listeners/CustomFieldListener.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/b2b-mobile-android-tickets/crs/src/main/java/com/abinbev/android/crs/fragments/main/history/HistoryBFFAdapter.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/b2b-mobile-android-tickets/crs/src/main/java/com/abinbev/android/crs/fragments/main/history/HistoryFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/b2b-mobile-android-tickets/crs/src/main/java/com/abinbev/android/crs/fragments/main/history/HistoryViewModel.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/b2b-mobile-android-tickets/crs/src/main/java/com/abinbev/android/crs/model/LegacyClasses.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/b2b-mobile-android-tickets/crs/src/main/java/com/abinbev/android/crs/section/providers/customersupport/CustomerSupportConfigs.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/b2b-mobile-android-tickets/crs/src/main/java/com/abinbev/android/crs/section/ui/CustomerSupportSectionBEESFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/b2b-mobile-android-tickets/crs/src/main/java/com/abinbev/android/crs/section/ui/CustomerSupportSectionFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/b2b-mobile-android-tickets/crs/src/main/java/com/abinbev/android/crs/section/viewmodels/CustomerSupportSectionViewModel.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/b2b-mobile-android-tickets/crs/src/main/java/com/abinbev/android/crs/util/UtilExtensions.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/b2b-mobile-android-tickets/crs/src/main/java/com/abinbev/android/crs/view/ticketdetails/TicketDetailsActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/b2b-mobile-android-tickets/crs/src/main/java/com/abinbev/android/crs/view/ticketdetails/TicketDetailsInformationAdapter.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/b2b-mobile-android-tickets/crs/src/main/java/com/abinbev/android/crs/view/ticketdetails/TicketDetailsViewModel.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/b2b-mobile-android-tickets/crs/src/main/res/layout/fragment_dynamic_forms_new_ticket.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/b2b-mobile-android-tickets/crs/src/main/res/layout/fragment_dynamic_review_screen.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/b2b-mobile-android-tickets/crs/src/main/res/values-es-rCO/strings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/b2b-mobile-android-tickets/crs/src/main/res/values-es-rDO/strings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/b2b-mobile-android-tickets/crs/src/main/res/values-es-rEC/strings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/b2b-mobile-android-tickets/crs/src/main/res/values-es-rMX/strings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/b2b-mobile-android-tickets/crs/src/main/res/values-es-rPE/strings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/b2b-mobile-android-tickets/crs/src/main/res/values-es-rUS/strings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/b2b-mobile-android-tickets/crs/src/main/res/values-pt-rBR/strings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/b2b-mobile-android-tickets/crs/src/main/res/values/strings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/b2b-mobile-android-tickets/crs/src/test/java/com/abinbev/android/crs/assets/list_ticket_details_view_200.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/b2b-mobile-android-tickets/crs/src/test/java/com/abinbev/android/crs/data/mapper/bees/RemoteConfigsFlagMapperTest.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/b2b-mobile-android-tickets/crs/src/test/java/com/abinbev/android/crs/view/ticketdetails/TicketDetailsActivityTest.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/b2b-mobile-android-tickets/crs/src/test/java/com/abinbev/android/crs/view/ticketdetails/TicketDetailsViewModelTest.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/b2b-mobile-android-tickets/gradle/wrapper/gradle-wrapper.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/b2b-mobile-android-tickets/sdk-android-specs/README.md">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/b2b-mobile-android-tickets/sdk-android-specs/dependencies.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/b2b-tapwiser-rating-android/app/src/main/java/com/ratings/app/MainActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/b2b-tapwiser-rating-android/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/b2b-tapwiser-rating-android/gradle/wrapper/gradle-wrapper.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/b2b-tapwiser-rating-android/rating/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/b2b-tapwiser-rating-android/rating/src/main/java/com/abinbev/android/ratings/enums/EntryMethod.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/b2b-tapwiser-rating-android/rating/src/main/java/com/abinbev/android/ratings/ui/service/rating/RatingServiceViewModel.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/b2b-tapwiser-rating-android/rating/src/main/java/com/abinbev/android/ratings/views/RMSOptionsComponent.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/b2b-tapwiser-rating-android/rating/src/main/res/layout/activity_sent_service.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/b2b-tapwiser-rating-android/rating/src/main/res/values/strings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/b2b-tapwiser-rating-android/rating/src/test/java/com/abinbev/android/ratings/ui/service/rating/RatingTicketViewModelTest.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/bees-android/.gitmodules">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/bees-android/app/bees-dependencies.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/bees-android/app/build-types.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/bees-android/app/src/main/AndroidManifest.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/bees-android/bees-actions/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/bees-android/bees-actions/src/main/java/com/abinbev/android/sdk/actions/deeplink/route/customersupport/CustomerSupportHistoryDeepLinkRoute.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/bees-android/bees-actions/src/main/java/com/abinbev/android/sdk/actions/di/DeeplinkDI.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/bees-android/bees-actions/src/main/java/com/abinbev/android/sdk/actions/modules/baseapp/BaseAppActions.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/bees-android/bees-actions/src/main/java/com/abinbev/android/sdk/actions/modules/customersupport/CustomerSupportActionsImpl.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/bees-android/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/bees-android/sdk-android-specs/dependencies.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/bees-android/ui-components-br/src/main/res/values/strings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/bees-android/ui-components-us/src/main/res/values/strings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/bees-datasource-android/app/src/main/java/com/abinbev/android/beesdatasource/app/datasources/customersupport/CustomerSupportRemoteConfigFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/bees-datasource-android/app/src/main/res/xml/remote_config_defaults.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/bees-datasource-android/bees-datasource/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/bees-datasource-android/bees-datasource/src/main/java/com/abinbev/android/beesdatasource/datasource/customersupport/models/firebaseremoteconfig/MyAccountConfigs.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/bees-datasource-android/bees-datasource/src/test/java/com/abinbev/android/beesdatasource/datasource/customersupport/providers/MyAccountFirebaseRemoteConfigProviderImplTest.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/bees-datasource-android/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/bees-datasource-android/sdk-android-specs/dependencies.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/sdk-android-specs/README.md">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/sdk-android-specs/dependencies.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/sdk-android/app/src/main/java/com/abinbev/android/sdk/app/featureflag/FeatureFlagFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/sdk-android/app/src/main/res/layout/feature_flag_fragment.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/sdk-android/sdk-feature-flag/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/sdk-android/sdk-feature-flag/src/main/java/com/abinbev/android/sdk/featureflag/appflagmanager/ManageFlagsFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/sdk-android/sdk-feature-flag/src/main/java/com/abinbev/android/sdk/featureflag/provider/enums/CustomerSupportFeatureFlag.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/sdk-android/sdk-feature-flag/src/main/java/com/abinbev/android/sdk/featureflag/provider/enums/MyAccountFeatureFlag.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/sdk-android/sdk-feature-flag/src/test/java/com/abinbev/android/sdk/featureflag/FeatureFlagManagerTest.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/sdk-android/sdk-feature-flag/src/test/java/com/abinbev/android/sdk/featureflag/provider/enums/CustomerSupportFeatureFlagTest.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/sdk-android/sdk-feature-flag/src/test/java/com/abinbev/android/sdk/featureflag/provider/enums/MyAccountFeatureFlagTest.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/tapwiser-android/.gitmodules">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/tapwiser-android/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/tapwiser-android/app/src/argentina/res/values/strings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/tapwiser-android/app/src/beesColombia/res/values/strings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/tapwiser-android/app/src/beesEcuador/res/values/strings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/tapwiser-android/app/src/beesMexico/res/values/strings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/tapwiser-android/app/src/beesPanama/res/values/strings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/tapwiser-android/app/src/beesParaguay/res/values/strings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/tapwiser-android/app/src/beesPeru/res/values/strings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/tapwiser-android/app/src/beesUruguay/res/values/strings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/tapwiser-android/app/src/brazil/res/values/strings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/tapwiser-android/app/src/dominicanRepublic/res/values/strings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/tapwiser-android/app/src/main/java/com/abinbev/android/tapwiser/firebase/remoteconfig/model/myaccount/MyAccountConfigs.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/tapwiser-android/app/src/main/java/com/abinbev/android/tapwiser/myAccount/MyAccountFragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/tapwiser-android/app/src/southAfrica/res/values/strings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../StudioProjects/tapwiser-android/sdk-android-specs/dependencies.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/prod/br/customer_support_configuration (@os=android,@app_versionle[14.1.9]).json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/prod/br/customer_support_configuration.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/prod/br/my_account_configuration (@os=android,@app_versionle[14.1.9],@pos=5).json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/prod/br/my_account_configuration.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/prod/co/customer_support_configuration (@os=android,@app_versionle[14.1.9]).json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/prod/co/customer_support_configuration.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/prod/co/my_account_configuration (@os=android,@app_versionle[14.1.9],@pos=3).json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/prod/co/my_account_configuration.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/prod/dr/customer_support_configuration (@os=android,@app_versionle[14.1.9]).json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/prod/dr/customer_support_configuration.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/prod/dr/my_account_configuration (@os=android,@app_versionle[14.1.9],@pos=4).json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/prod/dr/my_account_configuration.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/prod/ec/customer_support_configuration (@os=android,@app_versionle[14.1.9]).json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/prod/ec/customer_support_configuration.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/prod/ec/my_account_configuration (@os=android,@app_versionle[14.1.9],@pos=3).json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/prod/ec/my_account_configuration.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/prod/mx/customer_support_configuration (@os=android,@app_versionle[14.1.9]).json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/prod/mx/customer_support_configuration.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/prod/mx/my_account_configuration (@os=android,@app_versionle[14.1.9],@pos=2).json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/prod/mx/my_account_configuration.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/prod/pe/customer_support_configuration (@os=android,@app_versionle[14.1.9]).json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/prod/pe/customer_support_configuration.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/prod/pe/my_account_configuration (@os=android,@app_versionle[14.1.9],@pos=2).json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/prod/pe/my_account_configuration.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/prod/us/customer_support_configuration (@os=android, @app_versionle[14.1.9]).json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/prod/us/customer_support_configuration.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/prod/us/my_account_configuration (@os=android,@app_versionle[14.1.9],@pos=4).json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/prod/us/my_account_configuration.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/prod/za/customer_support_configuration (@os=android,@app_versionle[14.1.9]).json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/prod/za/customer_support_configuration.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/prod/za/my_account_configuration (@os=android,@app_versionle[14.1.9],@pos=3).json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/prod/za/my_account_configuration.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/sit/br/customer_support_configuration (@os=android,@app_versionle[14.1.9]).json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/sit/br/customer_support_configuration.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/sit/br/my_account_configuration (@os=android,@app_versionle[14.1.9],@pos=5).json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/sit/br/my_account_configuration.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/sit/co/customer_support_configuration (@os=android,@app_versionle[14.1.9]).json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/sit/co/customer_support_configuration.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/sit/co/my_account_configuration (@os=android,@app_versionle[14.1.9],@pos=3).json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/sit/co/my_account_configuration.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/sit/dr/customer_support_configuration (@os=android,@app_versionle[14.1.9]).json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/sit/dr/customer_support_configuration.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/sit/dr/my_account_configuration (@os=android,@app_versionle[14.1.9],@pos=4).json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/sit/dr/my_account_configuration.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/sit/ec/customer_support_configuration (@os=android,@app_versionle[14.1.9]).json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/sit/ec/customer_support_configuration.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/sit/ec/my_account_configuration (@os=android,@app_versionle[14.1.9],@pos=3).json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/sit/ec/my_account_configuration.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/sit/mx/account_info_configuration.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/sit/mx/customer_support_configuration (@os=android,@app_versionle[14.1.9]).json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/sit/mx/customer_support_configuration.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/sit/mx/my_account_configuration (@os=android,@app_versionle[14.1.9],@pos=2).json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/sit/mx/my_account_configuration.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/sit/pe/account_info_configuration.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/sit/pe/customer_support_configuration (@os=android,@app_versionle[14.1.9]).json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/sit/pe/customer_support_configuration.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/sit/pe/my_account_configuration (@os=android,@app_versionle[14.1.9],@pos=2).json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/sit/pe/my_account_configuration.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/sit/us/customer_support_configuration (@os=android, @app_versionle[14.1.9]).json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/sit/us/customer_support_configuration.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/sit/us/my_account_configuration (@os=android,@app_versionle[14.1.9],@pos=4).json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/sit/us/my_account_configuration.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/sit/za/customer_support_configuration (@os=android,@app_versionle[14.1.9]).json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/sit/za/customer_support_configuration.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/sit/za/my_account_configuration (@os=android,@app_versionle[14.1.9],@pos=3).json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/sit/za/my_account_configuration.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/uat/br/customer_support_configuration (@os=android,@app_versionle[14.1.9]).json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/uat/br/customer_support_configuration.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/uat/br/my_account_configuration (@os=android,@app_versionle[14.1.9],@pos=5).json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/uat/br/my_account_configuration(@os=android,@app_versionle[14.1.9],@pos=7)">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/uat/br/my_account_configuration.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/uat/co/customer_support_configuration (@os=android,@app_versionle[14.1.9]).json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/uat/co/customer_support_configuration.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/uat/co/my_account_configuration (@os=android,@app_versionle[14.1.9],@pos=3).json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/uat/co/my_account_configuration.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/uat/dr/customer_support_configuration (@os=android,@app_versionle[14.1.9]).json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/uat/dr/customer_support_configuration.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/uat/dr/my_account_configuration.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/uat/ec/customer_support_configuration (@os=android,@app_versionle[14.1.9]).json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/uat/ec/customer_support_configuration.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/uat/ec/my_account_configuration (@os=android,@app_versionle[14.1.9],@pos=3).json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/uat/ec/my_account_configuration.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/uat/mx/account_info_configuration.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/uat/mx/customer_support_configuration (@os=android,@app_versionle[14.1.9]).json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/uat/mx/customer_support_configuration.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/uat/mx/my_account_configuration (@os=android,@app_versionle[14.1.9],@pos=2).json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/uat/mx/my_account_configuration.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/uat/pe/account_info_configuration.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/uat/pe/customer_support_configuration (@os=android,@app_versionle[14.1.9]).json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/uat/pe/customer_support_configuration.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/uat/pe/my_account_configuration (@os=android,@app_versionle[14.1.9],@pos=2).json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/uat/pe/my_account_configuration.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/uat/us/customer_support_configuration (@os=android, @app_versionle[14.1.99]).json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/uat/us/customer_support_configuration.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/uat/us/my_account_configuration (@os=android,@app_versionle[14.1.9],@pos=4).json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/uat/us/my_account_configuration.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/uat/za/customer_support_configuration (@os=android,@app_versionle[14.1.9]).json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/uat/za/customer_support_configuration.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/uat/za/my_account_configuration (@os=android,@app_versionle[14.1.9],@pos=3).json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/uat/za/my_account_configuration.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/fragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

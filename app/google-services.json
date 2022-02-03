@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "39735803407",
+    "project_id": "primeirocompose",
+    "storage_bucket": "primeirocompose.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:39735803407:android:5c7d0c56e6eff50a59ad7a",
+        "android_client_info": {
+          "package_name": "com.gstv.primeirocompose"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "39735803407-hhatidb7kt5h2iqjcluvnccicneneo2i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gstv.primeirocompose",
+            "certificate_hash": "5f65bae500ac1986779ecb07087ca10ad6817d0e"
+          }
+        },
+        {
+          "client_id": "39735803407-sr1ga2on4el4pe2hqnopviss7tbdqtta.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-Ple0n4NnzIFF9E8xH2PKqba6ddUGtHE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "39735803407-sr1ga2on4el4pe2hqnopviss7tbdqtta.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

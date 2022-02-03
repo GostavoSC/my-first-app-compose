@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PrimeiroCompose</string>
+    <string name="add_title">Adicionar</string>
+    <string name="home_title">Home</string>
+    <string name="nome">Nome completo</string>
+    <string name="email_hint">Digite seu e-mail</string>
+    <string name="role_select">selecione o perfil</string>
+    <string name="login">Entrar</string>
+    <string name="password">Senha</string>
+    <string name="not_create_yet">Sou novo por aqui</string>
+</resources>
