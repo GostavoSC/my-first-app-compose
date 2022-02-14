@@ -12,9 +12,12 @@ import androidx.constraintlayout.compose.ConstraintLayout
 import com.gstv.primeirocompose.R
 
 @Composable
-fun LoginAppBar() {
+fun LoginAppBar(
+    text: String = "Login",
+    backgroundColor: Int = R.color.white,
+    textColor: Int = R.color.black
+) {
     TopAppBar(
-
         title = {
             ConstraintLayout(modifier = Modifier.fillMaxSize()) {
                 val title = createRef()
@@ -25,13 +28,13 @@ fun LoginAppBar() {
                         top.linkTo(parent.top)
                         bottom.linkTo(parent.bottom)
                     },
-                    text = stringResource(id = R.string.login),
-                    color = colorResource(id = R.color.black)
+                    text = text,
+                    color = colorResource(id = textColor)
                 )
 
             }
         },
-        backgroundColor = colorResource(id = R.color.white),
+        backgroundColor = colorResource(id = backgroundColor),
         elevation = 0.dp
     )
 

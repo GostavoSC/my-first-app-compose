@@ -1,11 +1,13 @@
 package com.gstv.primeirocompose.view.composables
 
-import androidx.compose.foundation.Image
+import android.content.Context
+import android.net.Uri
 import androidx.compose.foundation.background
-import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material.Card
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -14,27 +16,15 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
-import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.google.android.gms.auth.api.signin.GoogleSignInAccount
+import androidx.constraintlayout.compose.ConstraintLayout
 import com.gstv.primeirocompose.R
+import com.skydoves.landscapist.glide.GlideImage
 
 @Composable
-fun WelcomeMessage(account: GoogleSignInAccount?) {
-    account?.let {
-        it.givenName?.let { name ->
-            Text(
-                text = "Welcome,\n$name!",
-                fontWeight = FontWeight.W500,
-                fontSize = 17.sp,
-                color = Color.White
-            )
-        }
-    }
-
+fun WelcomeMessage(name: String, uri: Uri?) {
     Column(
-        horizontalAlignment = Alignment.CenterHorizontally,
         modifier = Modifier
             .background(
                 color = colorResource(
@@ -43,19 +33,43 @@ fun WelcomeMessage(account: GoogleSignInAccount?) {
                 shape = RoundedCornerShape(5.dp)
             )
             .fillMaxWidth()
-            .padding(10.dp)
+            .padding(all = 10.dp)
             .wrapContentHeight()
+
     ) {
-        Text(
-            text = "Your app name",
-            color = Color.Black,
-            fontWeight = FontWeight.W500,
-            fontSize = 30.sp,
-            modifier = Modifier.padding(
-                top = 15.dp,
-                bottom = 15.dp
-            )
-        )
+        ConstraintLayout(modifier = Modifier.wrapContentSize()) {
+            val (image, columnInfo) = createRefs()
+
+            Card(
+                shape = CircleShape,
+                modifier = Modifier
+                    .size(60.dp)
+                    .constrainAs(image) {
+                        top.linkTo(parent.top)
+                        start.linkTo(parent.start)
+                    }
+            ) {
+                GlideImage(
+                    imageModel = uri,
+                    contentDescription = "userImage"
+                )
+            }
+
+            Column(modifier = Modifier
+                .padding(top = 5.dp, start = 10.dp)
+                .constrainAs(columnInfo) {
+                    top.linkTo(parent.top)
+                    start.linkTo(image.end)
+                }) {
+                Text(
+                    text = name,
+                    color = Color.Black,
+                    fontWeight = FontWeight.W500,
+                    fontSize = 18.sp
+                )
+            }
+
+        }
     }
 }
 
@@ -72,7 +86,7 @@ fun HeadLayout() {
                 )
             )
     ) {
-        Spacer(modifier = Modifier.padding(70.dp))
+        Spacer(modifier = Modifier.padding(30.dp))
 
     }
 }
@@ -95,34 +109,44 @@ fun BodyButtons() {
 @Composable
 fun BodyItemButton(
     onClick: () -> Unit,
-    nameItem: String,
-    subTitleItem: String
+    nameItem: String
 ) {
     Box(
         modifier = Modifier
             .padding(5.dp)
             .background(color = Color.Transparent)
+            .fillMaxWidth(), contentAlignment = Alignment.Center
+
     ) {
-        Row(modifier = Modifier.background(Color.Black, shape = RoundedCornerShape(3.dp))) {
+        Row(
+            modifier = Modifier
+                .background(
+                    color = colorResource(id = R.color.blue_base),
+                    shape = RoundedCornerShape(3.dp)
+                )
+                .fillMaxWidth(),
+            horizontalArrangement = Arrangement.Center,
+            verticalAlignment = Alignment.CenterVertically
+        ) {
 
             Box(
                 modifier = Modifier
                     .padding(8.dp)
                     .clickable {
                         onClick()
-                    }
+                    },
+                contentAlignment = Alignment.Center,
 
-            ) {
-                Column {
+
+                ) {
+                Column(
+                    verticalArrangement = Arrangement.Center,
+                    horizontalAlignment = Alignment.CenterHorizontally
+                ) {
                     Text(
                         text = nameItem,
                         color = Color.White,
                         fontSize = 18.sp
-                    )
-                    Text(
-                        text = subTitleItem,
-                        color = Color.White,
-                        fontSize = 14.sp
                     )
                 }
 

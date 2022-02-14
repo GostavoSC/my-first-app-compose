@@ -82,6 +82,7 @@ class LoginActivity : ComponentActivity() {
         )
     }
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
@@ -97,7 +98,7 @@ class LoginActivity : ComponentActivity() {
     @Preview
     @Composable
     private fun MainContent() {
-        LoginAppBar()
+        LoginAppBar(textColor = R.color.blue_base)
         FormLogin()
         setupLogin()
     }

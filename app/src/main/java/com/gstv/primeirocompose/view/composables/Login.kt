@@ -30,7 +30,7 @@ fun ButtonLogin(onClick: () -> Unit) {
         modifier = Modifier.padding(top = 25.dp),
         colors = ButtonDefaults.buttonColors(
             backgroundColor = colorResource(
-                id = R.color.black
+                id = R.color.blue_base
             )
         )
     ) {
@@ -48,7 +48,7 @@ fun ButtonLogin(onClick: () -> Unit) {
 fun EmailField(emailState: MutableState<String>) {
 
     val black = colorResource(
-        id = R.color.black
+        id = R.color.blue_base
     )
     val isValidEmail = remember {
         mutableStateOf(true)
@@ -78,7 +78,7 @@ fun EmailField(emailState: MutableState<String>) {
 fun PasswordField(passwordState: MutableState<String>) {
 
     val black = colorResource(
-        id = R.color.black
+        id = R.color.blue_base
     )
 
     val isPasswordVisible = remember {

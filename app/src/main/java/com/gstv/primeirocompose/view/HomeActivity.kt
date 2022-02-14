@@ -9,16 +9,22 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.GridCells
 import androidx.compose.foundation.lazy.LazyVerticalGrid
+import androidx.compose.material.Text
+import androidx.compose.material.TopAppBar
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.colorResource
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import androidx.constraintlayout.compose.ConstraintLayout
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount
 import com.gstv.primeirocompose.R
 import com.gstv.primeirocompose.view.composables.BodyItemButton
 import com.gstv.primeirocompose.view.composables.HeadLayout
+import com.gstv.primeirocompose.view.composables.LoginAppBar
 import com.gstv.primeirocompose.view.composables.WelcomeMessage
 
 class HomeActivity : AppCompatActivity() {
@@ -29,6 +35,7 @@ class HomeActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setupUserAccount()
         setContent {
+            LoginAppBar()
             SetupHomeScreen()
         }
     }
@@ -47,35 +54,57 @@ class HomeActivity : AppCompatActivity() {
     fun SetupHomeScreen() {
         ConstraintLayout(
             modifier = Modifier
-                .fillMaxSize()
+                .fillMaxHeight()
+                .wrapContentWidth()
                 .background(color = colorResource(id = R.color.background))
         ) {
 
-            val (head, message, body) = createRefs()
+            val (head, message, backgroundHead, body) = createRefs()
             Box(modifier = Modifier
                 .constrainAs(head) {
                     top.linkTo(parent.top)
                 }
                 .fillMaxWidth()
                 .wrapContentHeight()) {
-                HeadLayout()
+                LoginAppBar(
+                    text = "Home Page",
+                    backgroundColor = R.color.blue_base,
+                    textColor = R.color.white
+                )
+            }
+
+            Box(
+                modifier = Modifier
+                    .sizeIn(minHeight = 70.dp)
+                    .fillMaxWidth()
+                    .background(colorResource(id = R.color.blue_base))
+                    .constrainAs(backgroundHead) {
+                        top.linkTo(head.bottom)
+                    }
+            ) {
+
             }
 
             Column(
                 modifier = Modifier
-                    .padding(top = 15.dp, end = 30.dp, start = 30.dp)
+                    .padding(top = 10.dp, end = 30.dp, start = 30.dp)
                     .constrainAs(message) {
-                        top.linkTo(parent.top, margin = 15.dp)
+                        top.linkTo(head.bottom, margin = 10.dp)
                     }
                     .fillMaxWidth()
                     .wrapContentHeight()
 
             ) {
-                WelcomeMessage(account)
+                account?.let {
+
+                    it.givenName?.let { name ->
+                        WelcomeMessage(name = name, it.photoUrl)
+                    }
+                }
             }
             LazyVerticalGrid(
                 modifier = Modifier.constrainAs(body) {
-                    top.linkTo(message.bottom, margin = 20.dp)
+                    top.linkTo(message.bottom, margin = 110.dp)
                 },
                 cells = GridCells.Fixed(2),
                 contentPadding = PaddingValues(10.dp),
@@ -89,8 +118,7 @@ class HomeActivity : AppCompatActivity() {
                                     Toast.LENGTH_LONG
                                 ).show()
                             },
-                            "Your product or page here",
-                            "your desc about here"
+                            "Nosso Clube",
                         )
                     }
                     item {
@@ -102,8 +130,7 @@ class HomeActivity : AppCompatActivity() {
                                     Toast.LENGTH_LONG
                                 ).show()
                             },
-                            "Your product or page here",
-                            "your desc about here"
+                            "Consultas"
                         )
                     }
                 })
