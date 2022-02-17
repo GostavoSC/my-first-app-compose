@@ -62,8 +62,8 @@ class MainActivity : ComponentActivity() {
                     MainCreateUserContent()
                 }
             }
+            setupLoginGoogle()
         }
-        setupLoginGoogle()
         setupLogin()
     }
 
