@@ -12,10 +12,10 @@ import androidx.constraintlayout.compose.ConstraintLayout
 import com.gstv.primeirocompose.R
 
 @Composable
-fun LoginAppBar(
+fun GenericAppBar(
     text: String = "Login",
     backgroundColor: Int = R.color.white,
-    textColor: Int = R.color.black
+    textColor: Int = R.color.blue_base
 ) {
     TopAppBar(
         title = {

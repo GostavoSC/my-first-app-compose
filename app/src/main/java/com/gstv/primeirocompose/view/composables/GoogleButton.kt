@@ -21,7 +21,6 @@ val gso: GoogleSignInOptions = GoogleSignInOptions.Builder(GoogleSignInOptions.D
     .build()
 
 
-
 @Composable
 fun ButtonGoogle(content: ActivityResultLauncher<Intent>, signInIntent: Intent) {
      val isConnecting = remember {
