@@ -1,6 +1,5 @@
 package com.gstv.primeirocompose.view.composables
 
-import android.net.Uri
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -20,40 +19,48 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.constraintlayout.compose.ConstraintLayout
-import com.google.android.gms.auth.api.signin.GoogleSignInAccount
+import com.google.accompanist.insets.navigationBarsWithImePadding
+import com.google.accompanist.insets.statusBarsPadding
+import com.google.gson.Gson
 import com.gstv.primeirocompose.R
+import com.gstv.primeirocompose.model.Account
 import com.skydoves.landscapist.glide.GlideImage
 
 @ExperimentalFoundationApi
 @Composable
-fun MainHomeContent(gAccount: GoogleSignInAccount) {
-    GenericAppBar()
-    SetupHomeScreen(gAccount)
+fun MainHomeContent(gAccount: String?) {
+    SetupHomeScreen(Gson().fromJson(gAccount, Account::class.java))
 }
 
 @ExperimentalFoundationApi
 @Composable
-fun SetupHomeScreen(gAccount: GoogleSignInAccount) {
+fun SetupHomeScreen(gAccount: Account) {
     ConstraintLayout(
         modifier = Modifier
-            .fillMaxHeight()
+            .fillMaxSize()
             .wrapContentWidth()
             .background(color = colorResource(id = R.color.background))
+            .statusBarsPadding()
+            .navigationBarsWithImePadding()
     ) {
 
         val (head, message, backgroundHead, body) = createRefs()
+
         Box(modifier = Modifier
+            .wrapContentSize()
             .constrainAs(head) {
                 top.linkTo(parent.top)
-            }
-            .fillMaxWidth()
-            .wrapContentHeight()) {
+                end.linkTo(parent.end)
+                start.linkTo(parent.start)
+
+            }) {
             GenericAppBar(
                 text = "Home Page",
                 backgroundColor = R.color.blue_base,
                 textColor = R.color.white
             )
         }
+
 
         Box(
             modifier = Modifier
@@ -77,11 +84,7 @@ fun SetupHomeScreen(gAccount: GoogleSignInAccount) {
                 .wrapContentHeight()
 
         ) {
-            gAccount.let {
-                it.givenName?.let { name ->
-                    WelcomeMessage(name = name, it.photoUrl)
-                }
-            }
+            WelcomeMessage(name = gAccount.name, gAccount.photo)
         }
         LazyVerticalGrid(
             modifier = Modifier.constrainAs(body) {
@@ -111,7 +114,7 @@ fun SetupHomeScreen(gAccount: GoogleSignInAccount) {
 }
 
 @Composable
-fun WelcomeMessage(name: String, uri: Uri?) {
+fun WelcomeMessage(name: String, uri: String) {
     Column(
         modifier = Modifier
             .background(

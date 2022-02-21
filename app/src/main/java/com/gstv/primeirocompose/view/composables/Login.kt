@@ -79,9 +79,9 @@ fun FormLogin(
 
         ) {
             EmailField(emailState = emailState)
-            PasswordField(passwordState = passwordState, areIdenticals = remember {
-                mutableStateOf(true)
-            })
+            PasswordField(
+                passwordState = passwordState
+            )
             Row(
                 horizontalArrangement = Arrangement.Center,
                 verticalAlignment = Alignment.CenterVertically
@@ -100,9 +100,8 @@ fun FormLogin(
                 GenericButton(text = "Login", onClick = {
                     viewModel.sendLogin(
                         email = emailState.value,
-                        password = passwordState.value,
-
-                        )
+                        password = passwordState.value
+                    )
                 })
             }
             CustomDivider()
@@ -155,7 +154,7 @@ fun EmailField(emailState: MutableState<String>) {
         keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Email),
         onValueChange = {
             emailState.value = it
-            isValidEmail.value = !it.contains(" ")
+            isValidEmail.value = !it.contains(" ") || it.isNotEmpty()
 
         },
         label = { Text(text = stringResource(id = R.string.email_hint)) }
@@ -163,7 +162,7 @@ fun EmailField(emailState: MutableState<String>) {
 }
 
 @Composable
-fun GenericField(textState: MutableState<String>, emptySpace: Boolean) {
+fun GenericField(textState: MutableState<String>) {
     val black = colorResource(
         id = R.color.blue_base
     )
@@ -181,12 +180,9 @@ fun GenericField(textState: MutableState<String>, emptySpace: Boolean) {
         isError = !isValidEmail.value,
         singleLine = true,
         value = textState.value,
-        keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Email),
         onValueChange = {
             textState.value = it
-            if (!emptySpace) {
-                isValidEmail.value = !it.contains(" ")
-            }
+            isValidEmail.value = it.isNotEmpty()
 
         },
         label = { Text(text = "Digite seu nome completo") }
@@ -198,7 +194,8 @@ fun GenericField(textState: MutableState<String>, emptySpace: Boolean) {
 fun PasswordField(
     passwordState: MutableState<String>,
     hint: String = stringResource(id = R.string.password),
-    areIdenticals: MutableState<Boolean>
+    isConfirmPasswordField: Boolean = false,
+    passwordValue: String = ""
 ) {
 
     val black = colorResource(
@@ -206,6 +203,9 @@ fun PasswordField(
     )
 
     val isPasswordVisible = remember {
+        mutableStateOf(false)
+    }
+    val isError = remember {
         mutableStateOf(false)
     }
 
@@ -216,7 +216,7 @@ fun PasswordField(
             focusedLabelColor = black,
             focusedBorderColor = black
         ),
-        isError = !areIdenticals.value,
+        isError = isError.value,
         keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Password),
         singleLine = true,
         visualTransformation = if (isPasswordVisible.value) VisualTransformation.None else PasswordVisualTransformation(),
@@ -239,7 +239,15 @@ fun PasswordField(
             }
         },
         value = passwordState.value,
-        onValueChange = { passwordState.value = it },
+        onValueChange = {
+            passwordState.value = it
+            if (isConfirmPasswordField) {
+                isError.value = passwordState.value != passwordValue
+            } else {
+                isError.value = passwordState.value.isEmpty()
+            }
+
+        },
         label = { Text(text = hint) }
     )
 }

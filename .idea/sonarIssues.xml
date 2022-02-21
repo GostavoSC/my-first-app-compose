@@ -333,6 +333,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/gstv/primeirocompose/model/Account.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/com/gstv/primeirocompose/model/AddUserState.kt">
           <value>
             <set />
@@ -1584,6 +1589,71 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../platform-config/mobile/firebase-remote-config/configs/uat/za/my_account_configuration.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../WMS/WMS - Android Loading/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../WMS/WMS - Android Loading/app/build/tmp/kapt3/stubs/debug/hbsis/wms/ambev/loadingnew/views/CollectPalletActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../WMS/WMS - Android Loading/app/src/main/AndroidManifest.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../WMS/WMS - Android Loading/app/src/main/java/hbsis/wms/ambev/loadingnew/ApplicationContext.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../WMS/WMS - Android Loading/app/src/main/java/hbsis/wms/ambev/loadingnew/viewModels/CollectPalletViewModel.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../WMS/WMS - Android Loading/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../WMS/WMS - Armazem Loading/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../WMS/WMS - Fabrica Carregamento/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../WMS/WMS - Fabrica Carregamento/app/build/generated/source/apt/debug/hbsis/wms/fabrica/carregamento/produto_acabado/estepe/EscolherEstepeView_.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../WMS/WMS - Fabrica Carregamento/app/src/main/java/hbsis/wms/fabrica/carregamento/produto_acabado/SupportUI.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../WMS/WMS - Fabrica Carregamento/app/src/main/java/hbsis/wms/fabrica/carregamento/produto_acabado/estepe/EscolherEstepeView.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../WMS/WMS - Fabrica Carregamento/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../WMS/WMS - Fabrica Carregamento/gradle/wrapper/gradle-wrapper.properties">
           <value>
             <set />
           </value>
