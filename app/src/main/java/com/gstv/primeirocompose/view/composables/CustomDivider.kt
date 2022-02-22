@@ -11,7 +11,7 @@ import com.gstv.primeirocompose.R
 @Composable
 fun CustomDivider() {
     Divider(
-        color = colorResource(id = R.color.black),
+        color = colorResource(id = R.color.blue_base),
         thickness = 2.dp,
         modifier = Modifier.padding(
             top = 40.dp,

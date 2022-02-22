@@ -78,9 +78,11 @@ class MainActivity : ComponentActivity() {
                     composable(
                         "home",
                     ) {
+                        navController.enableOnBackPressed(false)
                         MainHomeContent(it.arguments?.getString("account", ""))
                     }
                     composable("cadastro") {
+                        navController.enableOnBackPressed(true)
                         MainCreateUserContent(navController)
                     }
                 }
@@ -96,7 +98,6 @@ class MainActivity : ComponentActivity() {
         GoogleSignIn.getLastSignedInAccount(this)?.let {
             gAccount = it
             navigateToHome()
-            finish()
         }
         mGoogleSignInClient = GoogleSignIn.getClient(this, gso)
     }

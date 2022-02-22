@@ -71,10 +71,9 @@ fun FormNewUser(navController: NavHostController) {
         Column(modifier = Modifier
             .wrapContentSize()
             .constrainAs(forms) {
-                top.linkTo(appBar.bottom)
+                top.linkTo(appBar.bottom, margin = 30.dp)
                 end.linkTo(parent.end)
                 start.linkTo(parent.start)
-                bottom.linkTo(parent.bottom)
 
             }) {
             GenericField(textState = nameState)

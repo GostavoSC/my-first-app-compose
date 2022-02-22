@@ -22,6 +22,8 @@ import androidx.compose.ui.text.input.VisualTransformation
 import androidx.compose.ui.unit.dp
 import androidx.constraintlayout.compose.ConstraintLayout
 import androidx.navigation.NavHostController
+import com.google.accompanist.insets.navigationBarsWithImePadding
+import com.google.accompanist.insets.statusBarsPadding
 import com.google.android.gms.auth.api.signin.GoogleSignInClient
 import com.gstv.primeirocompose.R
 import com.gstv.primeirocompose.view.composables.ButtonGoogle
@@ -37,7 +39,6 @@ fun MainContent(
     mGoogleSignInClient: GoogleSignInClient,
     navController: NavHostController
 ) {
-    GenericAppBar()
     FormLogin(content, viewModel, mGoogleSignInClient, navController)
 }
 
@@ -58,10 +59,26 @@ fun FormLogin(
     ConstraintLayout(
         modifier = Modifier
             .fillMaxSize()
+            .statusBarsPadding()
+            .navigationBarsWithImePadding()
 
     ) {
 
-        val column = createRef()
+        val (column, head) = createRefs()
+
+        Box(modifier = Modifier
+            .wrapContentSize()
+            .constrainAs(head) {
+                top.linkTo(parent.top)
+                end.linkTo(parent.end)
+                start.linkTo(parent.start)
+
+            }) {
+            GenericAppBar(
+                backgroundColor = R.color.blue_base,
+                textColor = R.color.white
+            )
+        }
 
         Column(
             horizontalAlignment = Alignment.CenterHorizontally,
@@ -69,7 +86,7 @@ fun FormLogin(
             modifier = Modifier
                 .wrapContentSize()
                 .constrainAs(column) {
-                    top.linkTo(parent.top)
+                    top.linkTo(head.bottom)
                     start.linkTo(parent.start)
                     end.linkTo(parent.end)
                     bottom.linkTo(parent.bottom)
