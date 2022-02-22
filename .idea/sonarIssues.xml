@@ -1658,12 +1658,52 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../../WMS/WMS - Fabrica Carregamento/app/src/main/java/hbsis/wms/fabrica/carregamento/produto_acabado/CustomApplication.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../WMS/WMS - Fabrica Carregamento/app/src/main/java/hbsis/wms/fabrica/carregamento/produto_acabado/Processo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../../WMS/WMS - Fabrica Carregamento/app/src/main/java/hbsis/wms/fabrica/carregamento/produto_acabado/SupportUI.java">
           <value>
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../../WMS/WMS - Fabrica Carregamento/app/src/main/java/hbsis/wms/fabrica/carregamento/produto_acabado/allow_loading/AllowLoadingView.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../WMS/WMS - Fabrica Carregamento/app/src/main/java/hbsis/wms/fabrica/carregamento/produto_acabado/allow_loading/VehicleLoadingView.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../WMS/WMS - Fabrica Carregamento/app/src/main/java/hbsis/wms/fabrica/carregamento/produto_acabado/box/EscolherBoxDisponivelView.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../../WMS/WMS - Fabrica Carregamento/app/src/main/java/hbsis/wms/fabrica/carregamento/produto_acabado/estepe/EscolherEstepeView.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../WMS/WMS - Fabrica Carregamento/app/src/main/java/hbsis/wms/fabrica/carregamento/produto_acabado/resumo/ListaResumoView.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../WMS/WMS - Fabrica Carregamento/app/src/main/java/hbsis/wms/fabrica/carregamento/produto_acabado/security_check/SecurityCheckFailView.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../WMS/WMS - Fabrica Carregamento/app/src/main/java/hbsis/wms/fabrica/carregamento/produto_acabado/security_check/SecurityCheckView.java">
           <value>
             <set />
           </value>

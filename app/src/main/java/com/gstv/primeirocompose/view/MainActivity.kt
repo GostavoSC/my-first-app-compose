@@ -11,7 +11,6 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import androidx.navigation.navArgument
 import com.google.accompanist.insets.ProvideWindowInsets
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount
@@ -24,7 +23,6 @@ import com.gstv.primeirocompose.view.composables.MainCreateUserContent
 import com.gstv.primeirocompose.view.composables.MainHomeContent
 import com.gstv.primeirocompose.view.composables.gso
 import com.gstv.primeirocompose.viewModel.LoginActivityViewModel
-import org.json.JSONObject
 
 
 class MainActivity : ComponentActivity() {
@@ -43,7 +41,6 @@ class MainActivity : ComponentActivity() {
         } catch (e: RuntimeException) {
             //TO-DO treatment
         }
-
     }
 
     private fun navigateToHome() {
@@ -60,7 +57,6 @@ class MainActivity : ComponentActivity() {
                 )
             )
         )
-
     }
 
     @ExperimentalFoundationApi
@@ -93,7 +89,6 @@ class MainActivity : ComponentActivity() {
         setupLogin()
     }
 
-
     private fun setupLoginGoogle() {
         GoogleSignIn.getLastSignedInAccount(this)?.let {
             gAccount = it
@@ -108,6 +103,5 @@ class MainActivity : ComponentActivity() {
             finish()
         }
     }
-
 }
 

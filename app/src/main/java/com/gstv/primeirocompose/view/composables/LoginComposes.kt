@@ -127,7 +127,6 @@ fun FormLogin(
     }
 }
 
-
 @Composable
 fun GenericButton(onClick: () -> Unit, text: String) {
     Button(

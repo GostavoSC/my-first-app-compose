@@ -61,7 +61,6 @@ fun SetupHomeScreen(gAccount: Account) {
             )
         }
 
-
         Box(
             modifier = Modifier
                 .sizeIn(minHeight = 70.dp)
@@ -207,7 +206,6 @@ fun BodyItemButton(
                         fontSize = 18.sp
                     )
                 }
-
             }
         }
     }
